@@ -22,15 +22,15 @@
 
 ## First-time setup
 
-1.  Make sure Python 3.7x and Pipenv are already installed. [See here for help](https://djangoforbeginners.com/initial-setup/).
+1.  Make sure Python 3.7x and Poety are already installed.
 
 2.  Clone the repo and configure the virtual environment:
 
 ```
 $ git clone https://github.com/wsvincent/djangox.git
 $ cd djangox
-$ pipenv install
-$ pipenv shell
+$ poetry install
+$ poetry shell
 ```
 
 3.  Set up the initial migration for our custom user models in `users` and build the database.
@@ -54,13 +54,10 @@ $ pipenv shell
 
 Load the site at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-6. To customize the name of the project, update 3 files by replacing "djangox_project" with your desired name:
+6. To customize the name of the project, use the management command, where <new_project_name> stands for your project name.
 
-* `manage.py`
-* `djangox_project/settings.py`
-* `djangox_project/wsgi.py`
+* python manage.py rename <new_project_name>
 
-It's also possible to change the `djangox_project` directory to your desired project name.
 
 
 ## Next Steps
