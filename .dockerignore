@@ -1,0 +1,8 @@
+.git
+.vscode
+*.json
+*.sqlite3
+.DS_Store
+.gitignore
+venv
+.venv

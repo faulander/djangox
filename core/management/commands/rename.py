@@ -18,6 +18,7 @@ class Command(BaseCommand):
             os.path.join(BASE_DIR, "djangox_project\settings.py"),
             os.path.join(BASE_DIR, "djangox_project\wsgi.py"),
             os.path.join(BASE_DIR, "manage.py"),
+            os.path.join(BASE_DIR, "start.sh"),
         ]
         folder_to_rename = "djangox_projectx"
 

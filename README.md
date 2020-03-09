@@ -22,7 +22,7 @@
 
 ## First-time setup
 
-1.  Make sure Python 3.7x and Poety are already installed.
+1.  Make sure Python 3.7x and Poetry are already installed.
 
 2.  Clone the repo and configure the virtual environment:
 
